@@ -1,3 +1,5 @@
+package stringMatchAlgo;
+
 import javax.swing.*;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class stringMatchNaive {
             }
             if(count==m) {
 //                System.out.println("match found at " + i);
-                JOptionPane.showMessageDialog(null,"found "+pattern+" in "+text+" at "+i);
+                JOptionPane.showMessageDialog(null,"Found "+pattern+" in "+text+" at "+i);
                 break;
             }
 
